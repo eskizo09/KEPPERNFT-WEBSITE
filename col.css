@@ -1,0 +1,41 @@
+body, html {
+    height: 100%;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    color: white;
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    text-align: center;
+}
+
+h1 {
+    font-size: 2.5em; /* Adjust size as needed */
+    font-weight: bold;
+    margin: 0 0 20px; /* Add some space between the headline and the follow text */
+}
+
+.follow-text {
+    margin-bottom: 20px; /* Space between text and button */
+    font-size: 1em;
+}
+
+.follow-button {
+    font-size: 1em;
+    padding: 10px 20px;
+    border: 2px solid white; /* White border */
+    border-radius: 25px; /* Rounded corners */
+    text-decoration: none; /* Remove underline from link */
+    color: black; /* Initial text color */
+    background-color: white; /* Initial background color */
+    transition: all 0.3s ease; /* Smooth transition for hover effects */
+}
+
+.follow-button:hover {
+    color: white; /* Text color on hover */
+    background-color: black; /* Background color on hover */
+}

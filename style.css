@@ -1,0 +1,87 @@
+body {
+    font-family: Arial, sans-serif;
+    background: linear-gradient(to right, #000000, #120024);
+    color: #fff;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header, .content, footer {
+    padding: 20px;
+    text-align: center;
+}
+
+h1 {
+    margin: 0;
+    padding: 20px 0;
+}
+h2 {
+    margin: 0;
+    padding: 40px 0;
+    text-align: center;
+}
+
+.text-box {
+    background: rgba(0, 0, 0, 0.2); /* Semi-transparent black background */
+    border-radius: 20px;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+.button {
+    background: #7c4dff;
+    border: none;
+    padding: 10px 20px;
+    margin: 10px;
+    border-radius: 20px;
+    text-decoration: none;
+    color: white;
+    display: inline-block;
+}
+
+.button:hover {
+    background: #6a3093;
+}
+
+.image {
+    max-width: 100%;
+    height: auto;
+    border-radius: 20px;
+    margin: 20px 0;
+}
+
+footer {
+    margin-top: 20px;
+    font-size: 0.8em;
+}
+.image-button img {
+    cursor: pointer;
+    transition: transform 0.2s ease; /* Smooth transition for visual feedback */
+    width: 300px; /* Set the width of the image */
+    border-radius: 50px;
+    height: auto; /* Set the height to auto to maintain aspect ratio */
+}
+
+.image-button img:hover {
+    transform: scale(1.05); /* Slightly enlarge the image on hover */
+}
+
+.image-button img:active {
+    transform: scale(0.95); /* Slightly shrink the image on click */
+}
+.announcement {
+    text-align: center; /* Center the text */
+    background-color: #7c4dff; /* A purple background to match your theme */
+    color: white; /* White text for contrast */
+    padding: 10px 0; /* Some padding for spacing */
+    font-size: 16px; /* A moderate font size for the announcement */
+    font-weight: bold; /* Make the text bold */
+    border-radius: 5px; /* Rounded corners for aesthetics */
+    margin: 20px 0; /* Add some margin for spacing from other content */
+    box-shadow: 0 2px 4px rgba(0,0,0,0.2); /* A subtle shadow for depth */
+}
+
+.announcement p {
+    margin: 0; /* Remove default paragraph margin */
+}
